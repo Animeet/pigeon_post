@@ -1,6 +1,6 @@
 // Import the Sequelize constructor from sequelize
 const { Sequelize } = require("sequelize");
-// require("dotenv").config();
+require("dotenv").config();
 
 
 // Create a new connection instance, using option 3 from the docs

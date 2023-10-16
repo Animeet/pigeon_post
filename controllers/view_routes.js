@@ -8,5 +8,9 @@ router.get('/test', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/landing.html'));
 });
 
+router.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/register.html'))
+})
+
 // Export the router
 module.exports = router;
