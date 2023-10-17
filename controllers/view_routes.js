@@ -4,7 +4,7 @@ const path = require('path');
 
 
 // Add one test GET route at root
-router.get('/test', (req, res) => {
+router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/landing.html'));
 });
 
